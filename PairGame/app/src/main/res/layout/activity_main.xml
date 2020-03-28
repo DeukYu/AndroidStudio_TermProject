@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/restart"
+            android:onClick="onBtnRestart"
+            />
+        <TextView
+            android:gravity="right"
+            android:background="#68F"
+            android:layout_marginRight="30dp"
+            android:paddingRight="10dp"
+            android:id="@+id/scoreTextView"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        >
+        <ImageButton
+            android:id="@+id/b_00"
+            style="@style/cardButtonStyle" />
+        <ImageButton
+            android:id="@+id/b_01"
+            style="@style/cardButtonStyle" />
+            />
+        <ImageButton
+            android:id="@+id/b_02"
+            style="@style/cardButtonStyle" />
+            />
+        <ImageButton
+            android:id="@+id/b_03"
+            style="@style/cardButtonStyle" />
+            />
+    </LinearLayout>
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+        android:layout_weight="1"
+            android:orientation="horizontal"
+            >
+            <ImageButton
+                android:id="@+id/b_10"
+                style="@style/cardButtonStyle" />
+                />
+            <ImageButton
+                android:id="@+id/b_11"
+                style="@style/cardButtonStyle" />
+                />
+            <ImageButton
+                android:id="@+id/b_12"
+                style="@style/cardButtonStyle" />
+                />
+            <ImageButton
+                android:id="@+id/b_13"
+                style="@style/cardButtonStyle" />
+                />
+        </LinearLayout>
+    <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                >
+                <ImageButton
+                    android:id="@+id/b_20"
+                    style="@style/cardButtonStyle" />
+                    />
+                <ImageButton
+                    android:id="@+id/b_21"
+                    style="@style/cardButtonStyle" />
+                    />
+                <ImageButton
+                    android:id="@+id/b_22"
+                    style="@style/cardButtonStyle" />
+                    />
+                <ImageButton
+                    android:id="@+id/b_23"
+                    style="@style/cardButtonStyle" />
+                    />
+            </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        >
+        <ImageButton
+            android:id="@+id/b_30"
+            style="@style/cardButtonStyle" />
+            />
+        <ImageButton
+            android:id="@+id/b_31"
+            style="@style/cardButtonStyle" />
+            />
+        <ImageButton
+            android:id="@+id/b_32"
+            style="@style/cardButtonStyle" />
+            />
+        <ImageButton
+            android:id="@+id/b_33"
+            style="@style/cardButtonStyle" />
+            />
+    </LinearLayout>
+</LinearLayout>
