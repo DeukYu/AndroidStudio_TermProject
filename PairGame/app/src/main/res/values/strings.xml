@@ -1,9 +1,0 @@
-<resources>
-    <string name="app_name">PairGame</string>
-    <string name="restart">Restart</string>
-    <string name="flips_fmt">Flips: %d</string>
-    <string name="restartTitle">Restart</string>
-    <string name="restartMessage">Do you really want to restart the game?</string>
-    <string name="restartNo">No</string>
-    <string name="restartYes">Yes</string>
-</resources>
